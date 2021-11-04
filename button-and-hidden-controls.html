@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport"
+			  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Button and Hidden Controls</title>
+	</head>
+	<body>
+		<form action="http://www.example.com/add.php"> /* action dịnh nghĩa hành động sẽ được thực hiện khi nhấn nút gửi dữ liệu */
+			/* button để tạo một nút bấm. trong trường hợp này, hình ảnh đã trở thành một nút bấm */
+			<button>
+				<img src="../img/add.gif" alt="add" width="10" height="10">
+			</button>
+			/* khi sử dụng type-"hiden", người dùng sẽ không thao tác, giá trị value sẽ được gửi đến hệ thống khi submit form */
+			<input type="hidden" name="bookmark" value="lyrics">
+		</form>
+	</body>
+</html>
+

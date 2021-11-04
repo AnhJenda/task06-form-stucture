@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multiple Select Box</title>
+</head>
+<body>
+    <form action="http://www.example.com/profile.php">
+        <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC
+            or command key on a Mac while selecting different options.)</p>
+<!--        tạo một danh sách chọn dạng đổ xuống, thuộc tính size sẽ quyết định việc hiển thị bao nhiêu phần tử của danh sách
+            cùn một lúc, thuộc tính selected sẽ chọn sẵn một phần tử của danh sách, multiple cho phép chọn nhiều lựa chọn
+            bằng cách giữ phím Ctrl và click chuột-->
+        <select name="instruments" size="3" multiple="multiple">
+            <option value="guitar" selected="selected">Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="keyboard" selected="selected">Keyboard</option>
+            <option value="bass">Bass</option>
+        </select>
+    </form>
+</body>
+</html>
